@@ -46,7 +46,7 @@ revealjs-plugins:
 filters:
     - lightbox
 
-bibliography: references.bib
+# bibliography: references.bib
 
 include-after-body: assets/logo-hyperlink.html
 

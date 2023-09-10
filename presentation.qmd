@@ -1,25 +1,16 @@
 ---
-title: "Enhancing forest disturbance monitoring with ALS data integration"
+title: "Integration von ALS-Daten für ein verbessertes Waldschadensmonitoring"
 #subtitle: ""
 author: "Jens Wiesehahn"
-institute: "Northwest German Forest Research Institute" 
+institute: "Nordwestdeutsche Forstliche Versuchsanstalt" 
 title-slide-attributes:
     data-background-image: images/presentation_title_image.png
 ---
 
-# Background
-
-::: {.notes}
-- to provide context
-
-- forests are facing a number of challenges
-    - increased demands on forest (recreation, biodiversity, timber)
-    - reduced staff (more area per forester) 
-    - climate change
-:::
+# Hintergrund
 
 
-## Climate Change {auto-animate=true}
+## Klimawandel {auto-animate=true}
 
 :::: {.r-stack}
 ::: {.fragment .fade-out  fragment-index=1}
@@ -29,17 +20,12 @@ title-slide-attributes:
 ::: {.fragment .fade-in  fragment-index=1}
 ![](images/average-precipitation_goettingen_2018.png)
 
-- severe drought stress
+- Trockenstress
 :::
 ::::
 
 
-::: {.notes}
-- 2018 and following years showed severe droughts in Central Europe
-:::
-
-
-## Forest Disturbances {background-color="white" background-image=images/harz_3dview_ortho2017.jpeg auto-animate=true}
+## Waldschäden {background-color="white" background-image=images/harz_3dview_ortho2017.jpeg auto-animate=true}
 
 <br>
 
@@ -48,21 +34,13 @@ title-slide-attributes:
 <br>
 
 ::: {.light-color}
-- severe drought stress
+- Trockenstress
 
-{{< iconify ep arrow-right-bold size=sm >}} amplified massive bark beetle outbreaks in Germany
+{{< iconify ep arrow-right-bold size=sm >}} in Kombination mit massivem Borkenkäferbefall
 :::
 
 
-::: {.notes}
-conditions amplified bark beetle outbreaks
-
-- Harz 2017: Forestry world still fine 
-- Harz 2022 
-:::
-
-
-## Forest Disturbances {background-color="white" background-image=images/harz_3dview_ortho2022.jpeg transition="fade" auto-animate=true}
+## Waldschäden {background-color="white" background-image=images/harz_3dview_ortho2022.jpeg transition="fade" auto-animate=true}
 
 <br>
 
@@ -71,19 +49,13 @@ conditions amplified bark beetle outbreaks
 <br>
 
 ::: {.light-color}
-- severe drought stress
+- Trockenstress
 
-{{< iconify ep arrow-right-bold size=sm >}} amplified massive bark beetle outbreaks in Germany
+{{< iconify ep arrow-right-bold size=sm >}} in Kombination mit massivem Borkenkäferbefall
 :::
 
 
-::: {.notes}
-- lead to large-scale forest disturbances in recent years
-- lead to a strong need for more information to manage disturbances
-:::
-
-
-## Disturbance Monitoring {background-color="white" background-image=images/harz_3dview_ortho2022_disturbances.jpeg auto-animate=true}  
+## Waldschadensmonitoring {background-color="white" background-image=images/harz_3dview_ortho2022_disturbances.jpeg auto-animate=true}  
 
 <br>
 
@@ -92,55 +64,53 @@ conditions amplified bark beetle outbreaks
 <br>
 
 ::: {.light-color}
-- severe drought stress
+- Trockenstress
 
-{{< iconify ep arrow-right-bold size=sm >}} amplified massive bark beetle outbreaks in Germany
+{{< iconify ep arrow-right-bold size=sm >}} in Kombination mit massivem Borkenkäferbefall
 
-{{< iconify ep arrow-right-bold size=sm >}} caused a need for information
+{{< iconify ep arrow-right-bold size=sm >}} fordert Informationsbedarf
 :::
 
 
 ::: {.notes}
-shows disturbances we mapped in our project 
-
-- more than 500.000 ha (5 %) forest loss (2018-2020) (Thonfeld 2022)
-- 255 mio. m³ affected timber (2018-2022) ([BMEL](https://www.bmel.de/DE/themen/wald/wald-in-deutschland/wald-trockenheit-klimawandel.html))
+- > 500.000 ha (5 %) Waldschäden (2018-2020) (Thonfeld 2022)
+- 255 mio. m³ Schadholz (2018-2022) ([BMEL](https://www.bmel.de/DE/themen/wald/wald-in-deutschland/wald-trockenheit-klimawandel.html))
 :::
 
 
-## Disturbance Monitoring
+## Waldschadensmonitoring
 
 <br>
 
 :::: {.columns}
 ::: {.column width="50%"}
-**terrestrial (sample-based)**
+**terrestrisch (Stichprobenbasiert)**
 
-*e.g. [National Forest Inventory](https://www.bundeswaldinventur.de/en/), [Forest Condition Survey](https://www.thuenen.de/en/fachinstitute/waldoekosysteme/projekte/bodenschutz-und-waldzustand/projekte-waldzustandserhebung/national-forest-condition-survey)*
+*u.A. [Bundeswaldinventur](https://www.bundeswaldinventur.de/en/), [Waldzustandserfassung](https://www.thuenen.de/en/fachinstitute/waldoekosysteme/projekte/bodenschutz-und-waldzustand/projekte-waldzustandserhebung/national-forest-condition-survey)*
 
-{{< iconify typcn plus size=sm >}} established systems  
-{{< iconify typcn plus size=sm >}} detailed data (many attributes)  
-{{< iconify typcn minus size=sm >}} no information on local level  
-{{< iconify typcn minus size=sm >}} low repition rates  
-{{< iconify typcn minus size=sm >}} costly
+{{< iconify typcn plus size=sm >}} etablierte Systeme  
+{{< iconify typcn plus size=sm >}} detailierte Daten (viele Attribute)  
+{{< iconify typcn minus size=sm >}} keine lokalen Informationen  
+{{< iconify typcn minus size=sm >}} geringe Wiederholungsrate  
+{{< iconify typcn minus size=sm >}} kostenintensiv  
 
 
-{{< iconify ep arrow-right-bold size=sm >}} robust statistics on national level
+{{< iconify ep arrow-right-bold size=sm >}} robuste Statistiken auf nationaler Ebene
 :::
 
 ::: {.column width="50%"}
-**remote (satellite-based)**
+**fernerkundungsbasiert (Satelliten)**
 
 *e.g. [Waldmonitor DE](https://map3d.remote-sensing-solutions.de/waldmonitor-deutschland/), [Forestwatch-DE](https://forestwatch.lup-umwelt.de/app/), [FNEWS](https://www.fnews-wald.de/)*
 
 <br>
 
-{{< iconify typcn minus size=sm >}} sparse additional information  
-{{< iconify typcn plus size=sm >}} wall-to-wall maps  
-{{< iconify typcn plus size=sm >}} high repition rates  
-{{< iconify typcn plus size=sm >}} low-cost
+{{< iconify typcn minus size=sm >}} geringe Informationsdichte  
+{{< iconify typcn plus size=sm >}} flächendeckende Informationen  
+{{< iconify typcn plus size=sm >}} hohe Wiederholungsraten  
+{{< iconify typcn plus size=sm >}} kostengünstig  
 
-{{< iconify ep arrow-right-bold size=sm >}} disturbance maps on national level
+{{< iconify ep arrow-right-bold size=sm >}} Waldschadenskartierung auf nationaler Ebene  
 :::
 ::::
 
@@ -156,15 +126,14 @@ shows disturbances we mapped in our project
 ::: {.column width="50%"}
 **Airborne Laser Scanning**
 
-*barely used in (German) forestry until now*
+*bisher kaum genutzt (in Deutschland)*
 
-{{< iconify typcn media-record size=xs >}} detailed data  
-{{< iconify typcn media-record size=xs >}} low to medium repition rates  
-{{< iconify typcn media-record size=xs >}} costly ($)  
-{{< iconify typcn media-record size=xs >}} wall-to-wall maps  
-{{< iconify typcn media-record size=xs >}} on medium to large scale
+{{< iconify typcn media-record size=xs >}} hohe Informationsdichte  
+{{< iconify typcn media-record size=xs >}} geringe bis mittlere Wiederholungsrate  
+{{< iconify typcn media-record size=xs >}} recht kostenintensiv  
+{{< iconify typcn media-record size=xs >}} flächendeckende Informationen  
 
-{{< iconify ep arrow-right-bold size=sm >}} enhancing existing systems
+{{< iconify ep arrow-right-bold size=sm >}} Unterstützung bestehender Systeme  
 :::
 
 :::{.column width="25%"}
@@ -172,23 +141,7 @@ shows disturbances we mapped in our project
 ::::
 
 
-:::{.notes}
-- systems currently applied
-
-- what can we do with ALS in disturbance monitoring?
-    - detailed data on local level
-    - covering large areas
-    - but not frequently available
-- 
-:::
-
-
-# Pre-Disturbance Data
-
-
-::: {.notes}
-differentiate between als data collectes before and after disturbance 
-:::
+# Daten vor Schaden
 
 
 ##  Canopy Height Model {transition="fade" auto-animate=true}
@@ -199,25 +152,16 @@ differentiate between als data collectes before and after disturbance
 :::
 
 ::: {.column width="30%"}
-- standard product
+- Standardprodukt
 
-**Retrospective analysis**
+**Rückblickende Analyse**
 
-- delineate basic stand characteristics 
+- Ableitung einfacher Bestandescharakteristika
 :::
 ::::
 
 
-::: {.notes}
-valuable information 
-
-e.g.
-
-- stand structure of affected vs unaffected stands
-:::
-
-
-## Canopy Gaps {transition="fade" auto-animate=true}
+## Kronenlücken {transition="fade" auto-animate=true}
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -226,22 +170,14 @@ e.g.
 
 ::: {.column width="30%"}
 
-**Retrospective analysis**
+**Rückblickende Analyse**
 
-- unstocked forest areas prior to disturbance
+- bereits vor Schadereignis unbestockte Flächen
 :::
 ::::
 
-::: {.notes}
-easy delineation
 
-differentiate disturbance from already unstocked areas
-
-these might be false positives
-:::
-
-
-## Individual Trees {transition="fade" auto-animate=true}
+## Einzelbaumerkennung {transition="fade" auto-animate=true}
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -250,25 +186,18 @@ these might be false positives
 
 ::: {.column width="30%"}
 
-**Retrospective analysis**
+**Rückblickende Analyse**
 
-- disturbance characteristics on the tree level 
-    - size
-    - number 
-    - composition
+- Waldschadenscharakteristika auf Einzelbaumebene
+    - Größe
+    - Anzahl 
+    - Zusammensetzung
     - ...
 :::
 ::::
 
 
-::: {.notes}
-intersect disturbances with individual trees
-
-
-:::
-
-
-## Species Group {transition="fade" auto-animate=true}
+## Baumartengruppen {transition="fade" auto-animate=true}
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -277,17 +206,15 @@ intersect disturbances with individual trees
 
 ::: {.column width="30%"}
 
-**Retrospective analysis**
+**Rückblickende Analyse**
 
-- species group based on
-    - Spatial point metrics 
-    - Intensity (under certain conditions)
+- Baumartengruppe
 :::
 ::::
 
 
 
-## Understory Vegetation {transition="fade" auto-animate=true}
+## Verjüngung {transition="fade" auto-animate=true}
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -296,26 +223,21 @@ intersect disturbances with individual trees
 
 ::: {.column width="30%"}
 
-**Retrospective analysis**
+**Rückblickende Analyse**
 
-- vertical stand structure
+- Bestandesstruktur
 
 <br>
 
-**Current Management**
+**Schadflächen-Management**
 
-- potential regrowth
-- prioritize afforestation
+- potentielle Verjüngung
+- Priorisierung von Aufforstungen
 :::
 ::::
 
-::: {.notes}
-- use cases befor might work with aerial images
-- lidar data shines at providing further information below the canopy
-:::
 
-
-## Terrain {transition="fade" auto-animate=true}
+## Gelände {transition="fade" auto-animate=true}
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -324,33 +246,22 @@ intersect disturbances with individual trees
 
 ::: {.column width="30%"}
 
-**Retrospective analysis**
+**Rückblickende Analyse**
 
-- site conditions
+- Standortinformationen
 
 <br>
 
-**Current Management**
+**Schadflächen-Management**
 
-- site conditions
-- infrastructure network
-- trafficability
+- Standortinformationen
+- Wegenetz
+- Befahrbarkeit
 :::
 ::::
 
-::: {.notes}
-high resolution topographic data provied valuable informatio
-- site conditions (wetness, solar radiation)
-    - which stands were affected
-    - future management
-- plan harvesting operations
-    - existing forest roads / skid tracks
-    - unaccessible areas
-- 
-:::
 
-
-## Example {transition="fade"}
+## Beispiel {transition="fade"}
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -359,12 +270,12 @@ high resolution topographic data provied valuable informatio
 
 ::: {.column width="30%"}
 
-**Sample site**
+**Schadfläche**
 
 - 4.4 ha
-- disturbance between 2018 and 2021
-- by windthrow / bark beetle
-- detected with Sentinel-2
+- Schädigung zwischen 2018 und 2021
+- durch Windwurf / Borkenkäfer
+- erfasst mit Sentinel-2
 
 
 ![](images/rheinhausen_sample_ortho_overview.jpeg)
@@ -372,7 +283,7 @@ high resolution topographic data provied valuable informatio
 ::::
 
 
-## Example - Volume {transition="fade"}
+## Beispiel - Volumen {transition="fade"}
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -381,20 +292,20 @@ high resolution topographic data provied valuable informatio
 
 ::: {.column width="30%"}
 
-**Retrospective analysis**
+**Rückblickende Analyse**
 
-- 853 trees  
-    - 104 deciduous
-    - 749 evergreen
-- 196 trees/ha
-- 27.28 m avg. height
-- 0.9 m³ avg. volume
-- 851 m³ volume
+- 853 Einzelbäume  
+    - 104 Laubbäume
+    - 749 Nadelbäume
+- 196 Bäume/ha
+- 27.28 m Bestandeshöhe
+- 0.9 fm ⌀ Baumvolumen
+- 851 fm Gesmamtvolumen
 :::
 ::::
 
 
-## Example - Trafficability {transition="fade"}
+## Beispiel - Befahrbarkeit {transition="fade"}
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -403,15 +314,15 @@ high resolution topographic data provied valuable informatio
 
 ::: {.column width="30%"}
 
-**Current Management**
+**Schadflächen-Management**
 
-- 254 m forest road (58 m/ha)
-- 768 m skid tracks (176 m/ha)
-- terrain obstacles
+- 254 m Forstwege (58 m/ha)
+- 768 m Rückegassen (176 m/ha)
+- Gelände-Hindernisse
 :::
 ::::
 
-##  Example - Site index {transition="fade"}
+##  Beispiel - Standort {transition="fade"}
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -420,20 +331,18 @@ high resolution topographic data provied valuable informatio
 
 ::: {.column width="30%"}
 
-**Retrospective analysis** / **Current Management**
+**Rückblickende Analyse** / **Schadflächen-Management**
 
-- wetness
-- solar exposure
+- Feuchtigkeit
+- Sonnenenergie
 :::
 ::::
 
 
+# Daten nach Schadereignis
 
 
-# Post-Disturbance Data
-
-
-## Post-Disturbance {transition="fade" auto-animate=true}
+## Daten nach Schadereignis {transition="fade" auto-animate=true}
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -442,36 +351,32 @@ high resolution topographic data provied valuable informatio
 
 ::: {.column width="30%"}
 
-**Retrospective analysis**
+**Rückblickende Analyse**
 
-- disturbance evaluation
+- Waldschadens-Evaluierung
 
 <br>
 
-**Current Management**
+**Schadflächen-Management**
 
-- existing regrowth
-- potential seeding trees
+- bestehende Verjüngung
+- potenzielle Samenbäume
 
 <br>
 
 ::: {.fragment}
-[Processed]{.highlight-color-pink}
+[Bearbeitet]{.highlight-color-pink}
 
-- operation evaluation
-    - skid trails (FSC-conform?)
-    - wood piles
+- Aufarbeitungs-Analyse
+    - Rückegassen (FSC-konform?)
+    - Holzpolter
 :::
 
 :::
 ::::
 
 
-::: {.notes}
-:::
-
-
-## Post-Disturbance {transition="fade" auto-animate=true}
+## Daten nach Schadereignis {transition="fade" auto-animate=true}
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -490,41 +395,35 @@ high resolution topographic data provied valuable informatio
 
 ::: {.column width="30%"}
 
-**Retrospective analysis**
+**Rückblickende Analyse**
 
-- disturbance evaluation
-- operation evaluation
-    - skid trails (FSC-conform?)
-    - wood piles
-
-<br>
-
-**Current Management**
-
-- existing regrowth
-- potential seeding trees
+- Schadens-Evaluierung
+- Aufarbeitungs-Analyse
+    - Rückegassen (FSC-konform?)
+    - Holzpolter
 
 <br>
 
-[Unprocessed]{.highlight-color-pink}
+**Schadflächen-Management**
+
+- bestehende Verjüngung
+- potenzielle Samenbäume
+
+<br>
+
+[Unbearbeitet]{.highlight-color-pink}
 
 :::{.fragment fragment-index=2}
-- log detection
-- operation planning
-    - skid trails
+- Stammerkennung
+- Aufarbeitungs-Planung
+    - bestehende Rückegassen
 :::
 
 :::
 ::::
 
 
-::: {.notes}
-- based on neighbourhood metrics of points 
-- could be done with aerial imagery as well for stand replacing disturbances
-:::
-
-
-## Post-Disturbance {transition="fade" auto-animate=true}
+## Daten nach Schadereignis {transition="fade" auto-animate=true}
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -543,33 +442,28 @@ high resolution topographic data provied valuable informatio
 
 ::: {.column width="30%"}
 
-**Retrospective analysis**
+**Rückblickende Analyse**
 
-- disturbance evaluation
-- operation evaluation
-    - skid trails (FSC-conform?)
-    - wood piles
-- log detection
+- Schadens-Evaluierung
+- Aufarbeitungs-Analyse
+    - Rückegassen (FSC-konform?)
+    - Holzpolter
+- Stammerkennung 
 
 <br>
 
-**Current Management**
+**Schadflächen-Management**
 
-- existing regrowth
-- potential seeding trees
-- operation planning
-    - skid trails
-    - trafficability
+- bestehende Verjüngung
+- potenzielle Samenbäume
+- Aufarbeitungs-Planung
+    - bestehende Rückegassen
+    - Befahrbarkeit
 :::
 ::::
 
 
-::: {.notes}
-- but can also be done below canopy for non-stand-replacing disturbances
-:::
-
-
-## Multitemporal Data {transition="fade" auto-animate=true}
+## Multitemporale Daten {transition="fade" auto-animate=true}
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -587,34 +481,32 @@ high resolution topographic data provied valuable informatio
 :::
 
 ::: {.column width="30%"}
-- rarely available (in desired period)
-- pre- / post-disturbance information
+- kaum Verfügbar (in gewünschtem Zeitraum)
+- Informationen aus 
+    - Daten vor Schadereignis
+    - Daten nach Schadereignis
 
 plus
 
-- direct change detection
+- direkte Veränderungsanalyse
 :::
 
 ::::
 
 
-::: {.notes}
-:::
-
-
-# Conclusion
+# Zusammenfassung
 
 <br>
 
 :::: {.columns}
 ::: {.column width="70%"}
-**ALS data provides valuable information for**
+ALS Daten liefern **wertvolle Informationen** für
 
-1. [**Retrospective disturbance analysis**]{.highlight-color-pink}
-2. [**Ongoing disturbance management**]{.highlight-color-pink}
+1. [**Rückblickende Schadensanalyse**]{.highlight-color-pink}
+2. [**Aktuelles Schadflächenmanagement**]{.highlight-color-pink}
 
 
-**(combination with satellite-based systems for timely disturbance detection seems benefitial)**
+(**Kombination with Satelliten-basierten Systemen** für zeitnahe Schadenserkennung erscheint vielversprechend)
 
 <br>
 
@@ -624,12 +516,12 @@ plus
 :::
 
 ::: {.column width="30%"}
-Slides available under: 
+Prsentation online unter: 
 
 [{{< var website >}}]({{< var website >}})
 
 <br>
 
-{{< qrcode https://wiesehahn.github.io/presentation-silvilaser23 width=500 height=500 colorDark='#0011bb' >}}
+{{< qrcode https://wiesehahn.github.io/presentation-fowita23 width=500 height=500 colorDark='#0011bb' >}}
 :::
 ::::
