@@ -593,13 +593,18 @@ ALS Daten liefern **wertvolle Informationen** für
 2. [**Aktuelles Schadflächenmanagement**]{.highlight-color-pink}
 
 
-(**Kombination with Satelliten-basierten Systemen** für zeitnahe Schadenserkennung erscheint vielversprechend)
+(**Kombination mit Satelliten-basierten Systemen** für zeitnahe Schadenserkennung erscheint vielversprechend)
 
 <br>
 
 <br>
 
-{{< iconify tabler mail size=lg >}} *[jens.wiesehahn@nw-fva.de](mailto:jens.wiesehahn@nw-fva.de)*
+<br>
+
+{{< iconify tabler mail size=lg >}} *[wiesehahn.jens@gmail.com](mailto:wiesehahn.jens@gmail.com)*
+
+{{< iconify line-md mastodon size=lg >}} [@JensWiesehahn](https://elk.zone/fosstodon.org/@JensWiesehahn)
+
 :::
 
 ::: {.column width="30%"}
