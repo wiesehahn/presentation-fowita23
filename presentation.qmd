@@ -141,6 +141,93 @@ title-slide-attributes:
 ::::
 
 
+
+## ALS-Datenverfügbarkeit  {transition="fade" auto-animate=true}
+
+<br>
+
+*(Stand 2023)*
+
+<br>
+
+:::: {.columns}
+:::{.column width="50%"}
+
+**kostenpflichtig:**
+
+- Baden-Württemberg
+- Bremen
+- Hamburg
+- Mecklenburg-Vorpommern
+- Niedersachsen
+- Rheinland-Pfalz
+- Saarland
+- Schleswig-Holstein
+
+:::
+
+:::{.column width="50%"}
+
+**Open Data:**
+
+- Bayern
+- Berlin
+- Brandenburg
+- Hessen
+- Nordrhein-Westphalen
+- Sachsen-Anhalt
+- Sachsen
+- Thüringen
+
+:::
+::::
+
+<br>
+
+*(Stand 2023)*
+
+
+## ALS-Datenverfügbarkeit {transition="fade" auto-animate=true}
+
+<br>
+
+*(Stand 2023)*
+
+<br>
+
+:::: {.columns}
+:::{.column width="50%"}
+
+**kostenpflichtig:**
+
+- Bremen
+- Hamburg
+- Mecklenburg-Vorpommern
+- Niedersachsen
+- Rheinland-Pfalz
+- Saarland
+- Schleswig-Holstein
+
+:::
+
+:::{.column width="50%"}
+
+**Open Data:**
+
+- Baden-Württemberg [(ab 2024)]{.highlight-color-pink}
+- Bayern [(seit 2023)]{.highlight-color-pink}
+- Berlin
+- Brandenburg [(seit 2021)]{.highlight-color-pink}
+- Hessen [(seit 2022)]{.highlight-color-pink}
+- Nordrhein-Westphalen
+- Sachsen-Anhalt [(seit 2023)]{.highlight-color-pink}
+- Sachsen
+- Thüringen
+
+:::
+::::
+
+
 # Daten vor Schaden
 
 
@@ -365,10 +452,10 @@ title-slide-attributes:
 <br>
 
 ::: {.fragment}
-[Bearbeitet]{.highlight-color-pink}
+[aufgearbeitet]{.highlight-color-pink}
 
 - Aufarbeitungs-Analyse
-    - Rückegassen (FSC-konform?)
+    - Rückegassen
     - Holzpolter
 :::
 
@@ -399,7 +486,7 @@ title-slide-attributes:
 
 - Schadens-Evaluierung
 - Aufarbeitungs-Analyse
-    - Rückegassen (FSC-konform?)
+    - Rückegassen
     - Holzpolter
 
 <br>
@@ -411,11 +498,11 @@ title-slide-attributes:
 
 <br>
 
-[Unbearbeitet]{.highlight-color-pink}
+[unaufgearbeitet]{.highlight-color-pink}
 
 :::{.fragment fragment-index=2}
 - Stammerkennung
-- Aufarbeitungs-Planung
+- Aufarbeitungsplanung
     - bestehende Rückegassen
 :::
 
@@ -456,7 +543,7 @@ title-slide-attributes:
 
 - bestehende Verjüngung
 - potenzielle Samenbäume
-- Aufarbeitungs-Planung
+- Aufarbeitungsplanung
     - bestehende Rückegassen
     - Befahrbarkeit
 :::
@@ -488,7 +575,7 @@ title-slide-attributes:
 
 plus
 
-- direkte Veränderungsanalyse
+- **direkte Veränderungsanalyse**
 :::
 
 ::::
