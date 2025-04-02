@@ -1,9 +1,18 @@
 
 # Integration von ALS-Daten für ein verbessertes Waldschadensmonitoring
 
-## Abstract: 
+*(Presented at FOWITA conference 2023 in Dresden, Germany)*
 
-**Keywords:** *forest disturbance*, *ALS*, *data integration*, *monitoring*, *forest management*
+##### Keywords:
+**Airborne Laser Scanning**, **Data Integration**, **Forest Disturbances**, **Forest Management**, **Forest Monitoring**  
+
+[![presentation slides](https://img.shields.io/badge/Presentation%20Slides-373b38?logo=revealdotjs&logoColor=white)](https://wiesehahn.github.io/presentation-fowita23/presentation.html)
+
+#### Abstract
+
+This presentation discusses integrating Airborne Laser Scanning (ALS) data with satellite-based forest disturbance monitoring systems in Germany. It covers the current status of ALS data availability and demonstrates how these high-resolution 3D datasets, collected both before and after disturbance events, can enhance forest management by providing detailed information on disturbed areas to support planning efforts.
+
+#### Zusammenfassung
 
 Waldschäden haben in Deutschland in den letzten Jahren massiv an Häufigkeit, Ausmaß und Intensität zugenommen. Die beobachteten Schäden sind hauptsächlich auf Trockenheit und Windwurf, sowie einem damit zusammenhängenden Anstieg des Borkenkäferbefalls zurückzuführen. Infolgedessen besteht ein wachsender Bedarf, Waldstörungen zu kartieren, diese zu analysieren und zu bewerten. In einer Vielzahl von Projekten werden daher aktuell fernerkundungsbasierte Systeme für das Monitoring von Waldschäden in Deutschland entwickelt. Die meisten dieser Systeme verwenden regelmäßig verfügbare optische Satellitenbilder (z. B. Sentinel-2) in einer Veränderungsanalyse, um Waldschäden zu detektieren. Sie zielen darauf ab, zeitnah und regelmäßig Informationen darüber zu gewinnen, wo der Wald geschädigt ist. Für ein effizientes Management ist es darüber hinaus aber auch wichtig, weitere Attribute der betroffenen Waldschadensflächen zu erfassen. Hier ist besonders die Integration von Airborne Laser Scanning (ALS)-Daten von Vorteil, welche hochaufgelöste, dreidimensionale Informationen über die betroffenen Waldbestände liefern können.
 

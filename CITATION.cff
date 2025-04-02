@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: >-
+  Integration von ALS-Daten für ein verbessertes Waldschadensmonitoring
+message: >-
+  Rendered presentation available at https://wiesehahn.github.io/presentation-fowita23/
+type: dataset
+authors:
+  - given-names: Jens
+    family-names: Wiesehahn
+    email: wiesehahn.jens@gmail.com
+    affiliation: Nordwestdeutsche Forstliche Versuchsanstalt (NW-FVA)
+    orcid: 'https://orcid.org/0000-0002-4482-3012'
+identifiers:
+  - type: doi
+    value: someDOI/zenodo.example
+repository-code: >-
+  https://github.com/wiesehahn/presentation-fowita23
+url: >-
+  https://wiesehahn.github.io/presentation-fowita23/presentation
+abstract: >-
+  This presentation discusses integrating Airborne Laser Scanning (ALS) data with satellite-based forest disturbance monitoring systems in Germany. It covers the current status of ALS data availability and demonstrates how these high-resolution 3D datasets, collected both before and after disturbance events, can enhance forest management by providing detailed information on disturbed areas to support planning efforts.
+keywords:
+  - Airborne Laser Scanning
+  - Data Integration
+  - Forest Disturbances
+  - Forest Management
+  - Forest Monitoring
+license: CC-BY-SA-4.0
+date-released: 2023-09-14
