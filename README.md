@@ -6,7 +6,7 @@
 ##### Keywords:
 **Airborne Laser Scanning**, **Data Integration**, **Forest Disturbances**, **Forest Management**, **Forest Monitoring**  
 
-[![presentation slides](https://img.shields.io/badge/Presentation%20Slides-373b38?logo=revealdotjs&logoColor=white)](https://wiesehahn.github.io/presentation-fowita23/presentation.html)
+[![DOI](https://zenodo.org/badge/689679230.svg)](https://doi.org/10.5281/zenodo.15124152) [![presentation slides](https://img.shields.io/badge/Presentation%20Slides-373b38?logo=revealdotjs&logoColor=white)](https://wiesehahn.github.io/presentation-fowita23/presentation.html)
 
 #### Abstract
 

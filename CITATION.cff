@@ -12,7 +12,7 @@ authors:
     orcid: 'https://orcid.org/0000-0002-4482-3012'
 identifiers:
   - type: doi
-    value: someDOI/zenodo.example
+    value: 10.5281/zenodo.15124152
 repository-code: >-
   https://github.com/wiesehahn/presentation-fowita23
 url: >-
